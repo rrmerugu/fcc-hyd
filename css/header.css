@@ -1,10 +1,10 @@
 .header {
   background: green;
-  background-image: url(https://fcc-hyd.github.io/img/footer_lodyas.png);
+  background-image: url(../media/meetup.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 100vh;
   position: relative;
   font-family: 'Dosis', sans-serif;
   display: flex;
