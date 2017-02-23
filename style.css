@@ -1,0 +1,217 @@
+body {
+  width : auto;
+}
+
+#navbar {
+  list-style-type: none;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar li {
+  min-width : 14%;
+  text-align: center;
+  font-size : 1.3em;
+}
+
+.banner {
+  background-image: url(./img/banner.png);
+  background-size : 100% 100%;
+  height : 40em;
+  width : 100%;
+  display : flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size : 22px;
+  color : #FFF;
+}
+
+.cross {
+  height : 200px;
+  width : 100%;
+  background-color: red;
+}
+
+.about {
+  height : 10em;
+}
+
+.about p {
+  width : 30%;
+  height : 100%;
+  margin : 5%;
+  font-size : 22px;
+}
+
+.meetups {
+  height : 15em;
+  margin-top : 10%;
+}
+
+.meetups .upcoming-meetup {
+  float : left;
+  width : 55%;
+  height : 90%;
+  background-color: lightgreen;
+  margin : 10px;
+  margin-left : 5%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.upcoming-meetup h1 {
+  margin : 20% 10%;
+  color : #FFF;
+}
+
+.meetups p {
+  position : absolute;
+  right : 5%;
+  text-align: right;
+  width : 30%;
+  font-size : 22px;
+}
+
+.projects {
+  height : 20em;
+  margin-top : 15%;
+  /*background-color : red;*/
+}
+
+.projects .example-projects {
+  float : right;
+  width : 50%;
+  height : 90%;
+  /*background-color: green;*/
+  margin : 10px;
+  margin-right : 5%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.projects p {
+  position : absolute;
+  left : 5%;
+  text-align: left;
+  width : 30%;
+  font-size : 22px;
+}
+
+.example {
+  height : 100%;
+  width : 50%;
+  border : 1px solid black;
+  margin : 10px 10px;
+  text-align: center;
+}
+
+.members {
+  height : 20em;
+  margin-top : 15%;
+  /*background-color : red;*/
+}
+
+.members .example-members {
+  float : left;
+  width : 50%;
+  height : 90%;
+  margin : 10px;
+  margin-left : 5%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.members p {
+  position : absolute;
+  right : 5%;
+  text-align: right;
+  width : 30%;
+  font-size : 22px;
+}
+
+.member {
+  height : 100%;
+  width : 50%;
+  border : 1px solid black;
+  margin : 10px 10px;
+  text-align: center;
+}
+
+.jobs {
+  height : 20em;
+  margin-top : 15%;
+  /*background-color : red;*/
+}
+
+.jobs p {
+  position : absolute;
+  left : 5%;
+  text-align: left;
+  width : 30%;
+  font-size : 22px;
+}
+
+.feed {
+  float : right;
+  width : 50%;
+  height : auto;
+  border : 1px solid black;
+  /*background-color: green;*/
+  margin : 10px;
+  margin-right : 5%;
+}
+
+.job {
+  background-color: lightpink;
+  padding : 10px;
+  height : 30%;
+  width : 95%;
+  border : 1px solid black;
+  margin : 5px 10px;
+  text-align: left;
+  /*left : 10px;*/
+}
+
+footer {
+  height : 15em;
+  margin-top : 15%;
+  /*background-color : red;*/
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.join-us {
+  background-color: green;
+  padding : 10% 5%;
+  color : #FFF;
+  font-size : 22px;
+}
+
+.social-media {
+  height : 40%;
+  margin-top : 40%;
+}
+.social-media ul {
+  list-style-type: none;
+}
+
+.social-media ul li {
+  display : inline;
+  padding : 3em ;
+  /*background-color : red;*/
+}
+
+@media (max-width : 500px) {
+  #navbar {
+    background-color: red;
+  }
+  #navbar li {
+    min-width : 10%;
+  }
+}
