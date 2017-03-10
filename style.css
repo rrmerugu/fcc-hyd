@@ -1,0 +1,217 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+#navbar {
+  list-style-type: none;
+  display : flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#navbar li {
+  min-width : 14%;
+  text-align: center;
+  font-size : 1.3em;
+}
+
+.banner {
+  background-image: url(./img/banner.png);
+  background-size : 100% 100%;
+  height : 40em;
+  width : 100%;
+  margin-top : 5%;
+  display : flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.banner h1 {
+  font-size : 22px;
+  color : #FFF;
+}
+
+.cross {
+  height : 200px;
+  width : 100%;
+  background-color: red;
+}
+
+.about {
+  height : 10em;
+}
+
+.about p {
+  width : 30%;
+  height : 100%;
+  margin : 5%;
+  font-size : 22px;
+}
+
+.meetups {
+  height : 15em;
+  margin-top : 10%;
+}
+
+.meetups .upcoming-meetup {
+  float : left;
+  width : 55%;
+  height : 90%;
+  background-color: lightgreen;
+  margin : 10px;
+  margin-left : 5%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.upcoming-meetup h1 {
+  margin : 1.5em auto;
+  color : #FFF;
+}
+
+.meetups p {
+  position : absolute;
+  right : 5%;
+  text-align: right;
+  width : 30%;
+  font-size : 22px;
+}
+
+.projects {
+  height : 20em;
+  margin-top : 15%;
+}
+
+.projects .example-projects {
+  float : right;
+  width : 50%;
+  height : 90%;
+  margin : 10px;
+  margin-right : 5%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.projects p {
+  position : absolute;
+  left : 5%;
+  text-align: left;
+  width : 30%;
+  font-size : 22px;
+}
+
+.example {
+  height : 100%;
+  width : 50%;
+  border : 1px solid black;
+  margin : 10px 10px;
+  text-align: center;
+}
+
+.members {
+  height : 20em;
+  margin-top : 15%;
+  /*background-color : red;*/
+}
+
+.members .example-members {
+  float : left;
+  width : 50%;
+  height : 90%;
+  margin : 10px;
+  margin-left : 5%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.members p {
+  position : absolute;
+  right : 5%;
+  text-align: right;
+  width : 30%;
+  font-size : 22px;
+}
+
+.member {
+  height : 100%;
+  width : 50%;
+  border : 1px solid black;
+  margin : 10px 10px;
+  text-align: center;
+}
+
+.jobs {
+  margin-top : 10%;
+  display : flex;
+  justify-content: space-around;
+}
+
+.jobs p {
+  width : 30%;
+  font-size : 22px;
+}
+
+.feed {
+  width : 50%;
+}
+
+.job {
+  background-color: lightpink;
+  padding : 10px;
+  height : 30%;
+  border : 1px solid black;
+  margin : 5px 10px;
+}
+
+footer {
+  margin-top : 5%;
+}
+
+.join-us {
+  background-color: green;
+  width : 10%;
+  margin : auto;
+  color : #FFF;
+  font-size : 22px;
+  text-align: center;
+  padding : 10px;
+}
+
+.social-media {
+  margin-top : 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.social-media ul {
+  list-style-type: none;
+}
+
+.social-media ul li {
+  display : inline;
+  padding : 3em ;
+}
+
+@media (max-width : 500px) {
+  #navbar {
+    background-color: red;
+  }
+  #navbar li {
+    min-width : 10%;
+  }
+}

@@ -1,2 +1,2 @@
 # fcc
-fcc-hyd new and upgraded site
+freeCodeCamp Hyderabad's new and upgraded website
