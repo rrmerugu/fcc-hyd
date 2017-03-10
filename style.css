@@ -21,7 +21,7 @@ a {
 #navbar {
   list-style-type: none;
   display : flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
