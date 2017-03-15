@@ -1,0 +1,8 @@
+
+.btn{
+border-radius:0 !important;
+}
+.btn-primary{
+    background:green !important;
+    border-color: green !important;
+}

@@ -4,80 +4,191 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" type="image/png" href="./img/favicon.png">
+  <link rel="icon" type="image/png" href="./static/images/favicon.png">
   <title>freeCodeCamp Hyderabad | Learn, Collaborate and Create</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./static/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./static/styles/normalize-bootstrap.css">
+
+  <link rel="stylesheet" href="./static/styles/style.css">
+
 </head>
 <body>
-  <ul id="navbar">
-    <li><img src="./img/logo.png" height="80"></li>
-    <li>Learn</li>
-    <li>Members</li>
-    <li>Meetups</li>
-    <li>Projects</li>
-    <li>Jobs</li>
-    <li>Login</li>
-  </ul>
-  <div class="banner">
-    <!-- <h1>A community of developers passionate about code</h1> -->
-  </div>
-  <div class="about">
-    <p>We are a community of self-learners, passionate about building and collaborating on open source projects. Our mission is to improve the state of development in Hyderabad, India.</p>
-  </div>
-  <div class="meetups">
-    <div class="upcoming-meetup">
-      <h1>Facebook Developer Circle Launch</h1>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="./"><img src="./static/images/logo.png" height="80"></a>
     </div>
-    <p>We organize meetups every weekend, on various development topics like Mobile and Web.
-<br> The general theme of our meetups is self-learning, peer-learing, collaboration and learning through building.</p>
-  </div>
-  <div class="projects">
-    <p>Looking for open source projects to contribute to? We have listed all of our community projects as well as those created by our members in the projects page. You can search and filter based on your favorite technology. You can also add your own project.</p>
-    <div class="example-projects">
-      <div class="example project-1">
-        <h3>Project 1</h3>
-        <span>Android / Firebase</span>
-      </div>
-      <div class="example project-2">
-        <h3>Project 2</h3>
-        <span>React JS</span>
-      </div>
-    </div>
-  </div>
-  <div class="members">
-    <div class="example-members">
-      <div class="member member-1">
-        <h3>Srichakradhar</h3>
-        <span>Fullstack Developer / Android Developer</span>
-      </div>
-      <div class="member member-2">
-        <h3>Vinay</h3>
-        <span>Fullstack Developer</span>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Members</a></li>
+        <li><a href="#">Meetups</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="banner">
+  <!-- <h1>A community of developers passionate about code</h1> -->
+</div>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="fs-2em">We are a community of self-learners, passionate about building and collaborating on open source projects. Our mission is to improve the state of development in Hyderabad, India.</p>
       </div>
     </div>
-    <p>Our community is more than 200+ people strong, with members from different backgrounds and skillsets. Checkout our Members List to see all the profiles. You can even search and filer based on technologies and expertise.</p>
+
   </div>
-  <div class="jobs">
-    <p>Looking for developer jobs or good candidates for your company in Hyderabad? Our jobs board lists openings in startups as well as established corporations. You can filter based on technologies and the type of job you're looking for. You can also submit a new job opening.</p>
-    <div class="feed">
-      <div class="job job-1">
-        <h3>Looking for Node JS developers with at least 3 years of experience</h3>
-        <span>- Fission Labs</span>
+</section>
+
+
+<section class="">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-8">
+
+        <div class="upcoming-meetup" style=" ">
+          <h3 class="text-left">Facebook Developer Circle Launch</h3>
+
+        </div>
       </div>
-      <div class="job job-2">
-        <h3>Looking for Android Developer with at least 2 years of experience</h3>
-        <span>- Wavelabs</span>
+
+      <div class="col-sm-4">
+        <p class="fs-2em">We organize meetups every weekend, on various development topics like Mobile and Web.</p>
+        <p class="fs-2em">The general theme of our meetups is self-learning, peer-learing, collaboration and learning through building.</p>
       </div>
-      <div class="job job-3">
-        <h3>Looking for full stack web developer with least 1 year of experience</h3>
-        <span>- Thought Works</span>
+    </div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <p class="fs-2em">
+          Looking for open source projects to contribute to? We have listed all of our community projects as well as those created by our members in the projects page. You can search and filter based on your favorite technology. You can also add your own project
+        </p>
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="project-card" style=" ">
+          <h3>Project 1</h3>
+
+          <p>Android / Firebase</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="project-card" style=" ">
+          <h3>Project 2</h3>
+
+          <p>React JS</p>
+        </div>
       </div>
     </div>
   </div>
-  <footer>
-    <div class="join-us"> Join Us </div>
-    <div class="social-media">
-      <ul>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-md-4">
+
+        <div class="project-card" style=" ">
+          <h3>Srichakradhar</h3>
+
+          <p>Fullstack Developer / Android Developer</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="project-card" style=" ">
+          <h3>Vinay</h3>
+
+          <p>Fullstack Developer</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <p class="fs-2em">
+          Our community is more than 200+ people strong, with members from different backgrounds and skillsets. Checkout our Members List to see all the profiles. You can even search and filer based on technologies and expertise.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <p class="fs-2em">Looking for developer jobs or good candidates for your company in Hyderabad? Our jobs board lists openings in startups as well as established corporations. You can filter based on technologies and the type of job you're looking for. You can also submit a new job opening.</p>
+      </div>
+      <div class="col-sm-8">
+        <div class="job-card">
+          <h3>Looking for Node JS developers with at least 3 years of experience</h3>
+          <p>- Fission Labs</p>
+        </div>
+        <div class="job-card">
+          <h3>Looking for Android Developer with at least 2 years of experience</h3>
+          <p>- Wavelabs</p>
+        </div>
+        <div class="job-card">
+          <h3>Looking for full stack web developer with least 1 year of experience</h3>
+          <p>- Thought Works</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <a href="#" class="btn btn-primary btn-lg join-us">Join Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+
+  <div class="container">
+    <div class="col-md-12 text-center">
+      <ul class="list-inline">
         <li>Gitter</li>
         <li>GitHub</li>
         <li>Facebook</li>
@@ -87,6 +198,12 @@
         <li>Meetup</li>
       </ul>
     </div>
-  </footer>
+  </div>
+
+
+</footer>
+<script src="./static/scripts/jquery.min.js"></script>
+<script src="./static/scripts/bootstrap.min.js"></script>
+
 </body>
 </html>
