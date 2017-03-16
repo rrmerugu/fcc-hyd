@@ -1,5 +1,9 @@
-# Dev notes
+# Contributing 
 
+
+
+
+## File structure 
 
 - Put all the `.css` files to `static/styles/`
 - Put all the `.js` files to `static/scripts/`
